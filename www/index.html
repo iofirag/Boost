@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="boostApp">
+  <head>
+    <!-- <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"> -->
+
+    <!-- <title>Boost</title> -->
+
+    <!-- CSS -->
+    <link href="css/html5reset-1.6.1.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Dependencies js -->    
+    <script src="lib/node_modules/angular/angular.min.js"></script>
+    <script src="lib/node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="lib/node_modules/jquery/dist/jquery.min.js"></script>    
+
+    <!-- app js -->
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/services.js"></script>
+    
+  </head>
+
+  <body ng-controller="baseCtrl" ng-init="baseInit()">
+
+    <div ui-view></div>
+
+  </body>
+</html>
